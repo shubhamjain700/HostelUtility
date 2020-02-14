@@ -1,3 +1,169 @@
 <resources>
-    <string name="app_name">HostelUtility</string>
+    <string name="app_name">Hostel Utility</string>
+    <string name="title_activity_home">Home</string>
+
+
+    <!--College and hostel IDs, To make an app for a new Hostel, just change these two variables-->
+    <string name="college_id">CollegeID</string>
+    <string name="hostel_id">HostelID</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="complaint_array">
+        <item>Select complaint field</item>
+
+        <item>Electrical Appliances</item>
+        <item>RO Purifier</item>
+        <item>Mess</item>
+        <item>Plumber</item>
+        <item>Wifi Routers</item>
+        <item>Washrooms and Sanitary</item>
+        <item>Sweeper</item>
+        <item>Water Supply</item>
+
+    </string-array>
+    <string-array name="complaint_type">
+        <item>Select complaint type</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Select Category</item>
+        <item>General</item>
+        <item>OBC</item>
+        <item>SC/ST</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+
+    <string-array name="branch">
+        <item>Branch</item>
+        <item>AGE</item>
+        <item>CE</item>
+        <item>CSE</item>
+        <item>EE</item>
+        <item>ECE</item>
+        <item>IT</item>
+        <item>ME</item>
+        <item>MI</item>
+        <item>Dairy and Food Science</item>
+    </string-array>
+
+    <string-array name="stream">
+        <item>Class</item>
+        <item>B-Tech</item>
+        <item>M-Tech</item>
+        <item>PhD</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="application_type">
+        <item>Select Application Subject</item>
+        <item>Diet-Off</item>
+        <item>Leave</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_officials_home">OfficialsHome</string>
+    <string name="string_about">This app is designed to help student to raise complaint at individual level as well as at hostel level and also provides information platform for student and faculty.</string>
+    <string name="warning">Note: Those who will be found at hostel after submitting the diet of request will be fined and would get expelled from hostel</string>
+    <string name="warning_student_form">Please enter details same as you filled in the hostel form, Any wrong information can lead to expulsion from hostel</string>
+    <string name="type_notice_text">Type notice or select from gallery</string>
+    <string name="net_refill_request">Net Refill Request</string>
+    <string name="enter_your_room_number">Room number</string>
+    <string name="guardian_no">Local guadian no.(Opt)</string>
+    <string name="enter_adhaar">Adhaar no.</string>
+    <string name="enter_your_name">Name</string>
+    <string name="enter_your_father_name">Father Name</string>
+    <string name="mobile_no">Mobile no</string>
+    <string name="whatsapp_no_if_any">Whatsapp no(Opt)</string>
+    <string name="enter_your_email_address">Email Address</string>
+    <string name="father_contact">Father Contact</string>
+    <string name="permanent_address">Permanent Address</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_enrollment">Enrollment Number</string>
+    <string name="fill_this_form_to_proceed">Fill this form to proceed</string>
+
+
+    <!-- Database Reference string that is used to refer the database content-->
+    <string name="staff_ref">Staff</string>
+    <string name="wardenId">WardenID</string>
+    <string name="student_list_ref">StudentList</string>
+    <string name="mess_days_left_ref">MessDietDays</string>
+    <string name="diet_off_req_ref">MessDietOffRequests</string>
+    <string name="enroll_student_list_ref">EnrolledStudentList</string>
+    <string name="notice_ref">Notices</string>
+
+    <string name="warden_number">9509126582</string>
+    <string name="complaint_ref">Complaints</string>
+    <string name="pref_hostel_id">pref_HostelID</string>
+    <string name="pref_enroll">pref_Enroll</string>
+    <string name="pref_name">pref_Name</string>
+    <string name="pref_room">pref_Room_no</string>
+    <string name="pref_department">pref_Department</string>
+    <string name="pref_employee_id">pref_EmployeeID</string>
+    <string name="officials_id_ref">Officials_Records</string>
+    <string name="pref_post">pref_Post</string>
+    <string name="pref_mobile_no">MobileNo</string>
+    <string name="mess_contractor_number">9969472062</string>
+    <string name="action_logout">Logout</string>
+    <string name="official">Officials_Records</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="channel_name">new channer</string>
+    <string name="channel_description">this is a new channel</string>
+    <string name="reg_first_war_text">Give your details to register\nMake sure you\'re entering same information that you\'ve given to the hostel form</string>
+    <string name="enroll_hint">Enrollment number</string>
+    <string name="empId_hint">Employee Id</string>
+    <string name="fragment_tag">currentFrag</string>
+    <string name="pref_mail">pref_mail</string>
+    <string name="forgot_pass_hint">Forgot Password</string>
+    <string name="reset_pass_number_hint">An reset link would be sent to your registered email</string>
+
+    <string name="all_char">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" "</string>
+    <string name="space">&#160;|</string>
+
+
 </resources>
