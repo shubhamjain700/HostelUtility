@@ -53,7 +53,7 @@
             app:layout_constraintTop_toTopOf="@+id/cardView"
             app:srcCompat="@drawable/hostelutilityapp_main_logo">
 
-        </>
+        </ImageView>
 
           <androidx.cardview.widget.CardView
               android:id="@+id/cardView"
