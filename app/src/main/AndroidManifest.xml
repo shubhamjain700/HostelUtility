@@ -17,9 +17,10 @@
         <activity android:name=".New_about" />
         <activity android:name=".choose_college" />
         <activity android:name=".new_student_complaint" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity"  />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
