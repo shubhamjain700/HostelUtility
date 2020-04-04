@@ -41,7 +41,19 @@
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toTopOf="@+id/guideline6"></TextView>
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="@+id/cardView"
+            app:srcCompat="@drawable/hostelutilityapp_main_logo">
 
+        </ImageView>
 
           <androidx.cardview.widget.CardView
               android:id="@+id/cardView"
