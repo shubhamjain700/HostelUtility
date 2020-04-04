@@ -72,34 +72,7 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
            /> app:srcCompat="@drawable/ic_undraw_male_avatar" />
 
-        <TextView
-            android:id="@+id/tv_dashboard"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="16dp"
-            android:text="Your Dashboard"
-            android:textColor="@color/black_dark"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycler_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:overScrollMode="never"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_dashboard"
-            app:spanCount="2"
-            tools:itemCount="4"
-            tools:listitem="@layout/new_dashboard_cardui"/>
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline3"
