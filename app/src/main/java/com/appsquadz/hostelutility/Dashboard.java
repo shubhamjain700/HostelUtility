@@ -16,22 +16,9 @@ import androidx.core.util.Pair;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.load.resource.bitmap.CircleCrop;
-import com.code_base_update.beans.DashBoardBean;
-import com.code_base_update.interfaces.OnItemClickListener;
-import com.code_base_update.ui.AboutSection;
-import com.code_base_update.ui.BaseActivity;
-import com.code_base_update.ui.GeneralNotice;
-import com.code_base_update.ui.HostelNoticeActivity;
-import com.code_base_update.ui.ProfileActivity;
-import com.code_base_update.ui.adapters.DashboardRecyclerAdapter;
-import com.medeveloper.ayaz.hostelutility.R;
 
 import java.util.ArrayList;
 
-import officials_module.model.ODashBoardModel;
-import officials_module.presenter.IODashboardPresenter;
-import officials_module.view.IODashboardView;
 
 public class Dashboard extends BaseActivity<IODashboardView, IODashboardPresenter> implements IODashboardView{
 
